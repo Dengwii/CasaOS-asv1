@@ -54,7 +54,6 @@ services:
             en_US: ""
     container_name: lidarr
 x-casaos:
-  id: org.icewhale.lidarr
   architectures:
     - amd64
     - arm64
@@ -100,7 +99,6 @@ x-casaos:
   title:
     en_US: Lidarr
   port_map: "8686"
-  version: "3.1.0"
   update_at: "2026-05-13"
   release_notes:
     en_US: |-

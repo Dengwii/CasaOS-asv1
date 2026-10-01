@@ -27,7 +27,6 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  id: org.icewhale.jellyseerr
   scheme: http
   title:
     en_US: Jellyseerr
@@ -423,7 +422,6 @@ x-casaos:
   thumbnail: ""
   tips: {}
   port_map: "5055"
-  version: "2.7.3"
   update_at: "2025-08-14"
   release_notes:
     en_US: |-

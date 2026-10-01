@@ -102,7 +102,6 @@ services:
             zh_CN: OpenMax库
     container_name: jellyfin
 x-casaos:
-  id: org.icewhale.jellyfinnvidia
   architectures:
     - amd64
     - arm64
@@ -159,7 +158,6 @@ x-casaos:
     en_US: Jellyfin(Nvidia GPU)
   index: /
   port_map: "8097"
-  version: "10.10.6"
   update_at: "2025-04-01"
   release_notes:
     en_US: |-

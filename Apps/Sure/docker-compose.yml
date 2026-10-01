@@ -195,7 +195,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.icewhale.sure
   architectures:
     - amd64
     - arm64
@@ -569,7 +568,6 @@ x-casaos:
     pt_PT: Sure
     ru_RU: Sure
     tr_TR: Sure
-  version: "0.6.5-hotfix.1"
   update_at: "2025-12-03"
   release_notes:
     en_US: |-

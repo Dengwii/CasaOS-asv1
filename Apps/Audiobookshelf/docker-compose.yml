@@ -104,7 +104,6 @@ services:
             ru_RU: HTTP порт веб-интерфейса
             tr_TR: WebUI HTTP Portu
 x-casaos:
-  id: org.icewhale.audiobookshelf
   architectures:
     - amd64
     - arm64
@@ -455,7 +454,6 @@ x-casaos:
   index: /
   title:
     en_US: Audiobookshelf
-  version: "2.35.0"
   update_at: "2026-05-17"
   release_notes:
     en_US: |-

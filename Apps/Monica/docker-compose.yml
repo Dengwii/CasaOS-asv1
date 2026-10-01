@@ -244,7 +244,6 @@ networks:
   monica_network:
     driver: bridge
 x-casaos:
-  id: org.icewhale.monica
   architectures:
     - amd64
     - arm64
@@ -580,7 +579,6 @@ x-casaos:
   index: /
   title:
     en_US: Monica
-  version: "4.1.2"
   update_at: "2026-05-12"
   release_notes:
     en_US: |-

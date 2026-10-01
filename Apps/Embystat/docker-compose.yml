@@ -42,7 +42,6 @@ services:
             en_US: ""
     container_name: embystat
 x-casaos:
-  id: org.icewhale.embystat
   architectures:
     - amd64
     - arm64
@@ -88,7 +87,6 @@ x-casaos:
   title:
     en_US: Embystat
   port_map: "6555"
-  version: "0.2.0"
   update_at: "2023-10-25"
   release_notes:
     en_US: |-

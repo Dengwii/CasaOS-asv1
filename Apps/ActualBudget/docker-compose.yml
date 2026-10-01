@@ -54,7 +54,6 @@ services:
             ru_RU: Порт Веб-Интерфейса Actual Budget
             tr_TR: Actual Budget Web Arayüzü Portu
 x-casaos:
-  id: org.icewhale.actualbudget
   architectures:
     - amd64
     - arm64
@@ -469,7 +468,6 @@ x-casaos:
   index: /
   title:
     en_US: Actual Budget
-  version: "26.5.2"
   update_at: "2026-05-08"
   release_notes:
     en_US: |-

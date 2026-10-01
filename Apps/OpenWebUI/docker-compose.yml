@@ -27,7 +27,6 @@ services:
     privileged: false
     container_name: open-webui-ollama
 x-casaos:
-  id: org.icewhale.openwebuiollama
   architectures:
     - amd64
   main: open-webui-ollama
@@ -533,7 +532,6 @@ x-casaos:
     ja_JP: Open WebUI
   index: /
   port_map: "3050"
-  version: "0.9.6"
   update_at: "2026-05-10"
   release_notes: ""
   website: "https://openwebui.com"

@@ -72,7 +72,6 @@ services:
             en_US: Trust reverse proxy headers
     container_name: snapotter
 x-casaos:
-  id: com.snapotter.snapotter
   main: snapotter
   index: /
   port_map: "1349"
@@ -104,7 +103,6 @@ x-casaos:
   architectures:
     - amd64
     - arm64
-  version: "2.2.0"
   update_at: "2026-09-02"
   release_notes:
     en_US: |

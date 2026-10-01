@@ -49,7 +49,6 @@ services:
             zh_CN: Netronome 数据目录
 
 x-casaos:
-  id: org.icewhale.netronome
   main: netronome
   index: /
   port_map: "7575"
@@ -83,7 +82,6 @@ x-casaos:
     zh_CN: >-
       Netronome 是一套完整的网络性能监控方案，支持测速、持续丢包监控、
       分布式服务器代理、自动告警、可视化和历史数据追踪。
-  version: "0.13.0"
   update_at: "2026-07-30"
   release_notes:
     en_US: |-

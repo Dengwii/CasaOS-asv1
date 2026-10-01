@@ -98,7 +98,6 @@ services:
             en_US: Set to "true" when running behind CasaOS's reverse proxy.
 
 x-casaos:
-  id: org.icewhale.etherpad
   architectures:
     - amd64
     - arm64
@@ -406,7 +405,6 @@ x-casaos:
   index: /
   title:
     en_US: Etherpad
-  version: "3.1.0"
   update_at: "2026-05-17"
   release_notes:
     en_US: |-

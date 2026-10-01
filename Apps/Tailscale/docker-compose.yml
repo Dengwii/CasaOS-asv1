@@ -77,7 +77,6 @@ services:
             ru_RU: Путь каталога состояния Tailscale
             tr_TR: Tailscale Durum Dizini Yolu
 x-casaos:
-  id: org.icewhale.tailscale
   architectures:
     - amd64
     - arm
@@ -428,7 +427,6 @@ x-casaos:
   index: /
   title:
     en_US: Tailscale
-  version: "1.98.3"
   update_at: "2026-05-21"
   release_notes:
     en_US: |-

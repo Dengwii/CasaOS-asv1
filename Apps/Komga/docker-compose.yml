@@ -98,7 +98,6 @@ services:
             ru_RU: Синхронизация часового пояса
             tr_TR: Saat dilimi senkronizasyonu
 x-casaos:
-  id: org.icewhale.komga
   architectures:
     - amd64
     - arm
@@ -526,7 +525,6 @@ x-casaos:
   index: /
   title:
     en_US: Komga
-  version: "1.24.4"
   update_at: "2026-04-24"
   release_notes:
     en_US: |-

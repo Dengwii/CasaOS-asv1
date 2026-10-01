@@ -63,7 +63,6 @@ services:
             zh_CN: NetBird 状态目录
             ja_JP: NetBird状態ディレクトリ
 x-casaos:
-  id: org.icewhale.netbird
   architectures:
     - amd64
     - arm64
@@ -153,7 +152,6 @@ x-casaos:
   index: /
   title:
     en_US: NetBird
-  version: "0.62.3"
   update_at: "2026-01-12"
   release_notes:
     en_US: |-

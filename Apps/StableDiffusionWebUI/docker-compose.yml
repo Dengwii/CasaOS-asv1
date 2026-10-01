@@ -30,7 +30,6 @@ services:
     privileged: false
     container_name: icewhale-stable-diffusion-webui
 x-casaos:
-  id: org.icewhale.icewhalestablediffusionwebui
   architectures:
     - amd64
   main: icewhale-stable-diffusion-webui
@@ -53,7 +52,6 @@ x-casaos:
     en_US: Stable Diffusion
   index: /
   port_map: "7860"
-  version: "9.0.0"
   update_at: "2024-01-11"
   release_notes: ""
   website: ""

@@ -95,7 +95,6 @@ services:
             ru_RU: Синхронизация часового пояса
             tr_TR: Saat dilimi senkronizasyonu
 x-casaos:
-  id: org.icewhale.kavita
   architectures:
     - amd64
     - arm
@@ -463,7 +462,6 @@ x-casaos:
   index: /
   title:
     en_US: Kavita
-  version: "0.9.0-2"
   update_at: "2026-05-14"
   release_notes:
     en_US: |-

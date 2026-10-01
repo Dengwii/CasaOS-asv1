@@ -40,7 +40,6 @@ services:
             en_US: ""
     container_name: logseq
 x-casaos:
-  id: org.icewhale.logseq
   architectures:
     - amd64
     - arm64
@@ -65,7 +64,6 @@ x-casaos:
   title:
     en_US: Logseq
   port_map: "3325"
-  version: "0.10.10"
   update_at: "2024-11-27"
   release_notes:
     en_US: |-

@@ -22,7 +22,6 @@ services:
     hostname: Jenkins
 
 x-casaos:
-  id: org.icewhale.jenkins
   architectures:
     - amd64
     - arm64
@@ -64,7 +63,6 @@ x-casaos:
     en_US: Jenkins CI/CD
   port_map: "8080"
   icon: https://icon.casaos.io/main/all/jenkins.png
-  version: "2.569.0"
   update_at: "2026-03-18"
   release_notes: ""
   website: "https://www.jenkins.io/"

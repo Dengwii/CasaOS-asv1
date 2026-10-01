@@ -37,7 +37,6 @@ services:
     logging:
       driver: local
 x-casaos:
-  id: org.icewhale.roonserver
   architectures:
     - amd64
   main: roonserver
@@ -123,7 +122,6 @@ x-casaos:
     ko_KR: Roon Server
     zh_CN: Roon Server
     zh_TW: Roon Server
-  version: "1.0.8"
   update_at: "2026-08-26"
   release_notes:
     en_US: |-

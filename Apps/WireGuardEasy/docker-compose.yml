@@ -40,7 +40,6 @@ services:
       - net.ipv4.conf.all.src_valid_mark=1
     container_name: wg-easy
 x-casaos:
-  id: org.icewhale.wgeasy
   architectures:
     - amd64
     - arm
@@ -108,7 +107,6 @@ x-casaos:
   title:
     en_US: WireGuard Easy
   port_map: '51821'
-  version: "13.0.0"
   update_at: "2024-07-16"
   release_notes:
     en_US: |-

@@ -24,7 +24,6 @@ services:
         target: /config
     container_name: handbrake
 x-casaos:
-  id: org.icewhale.handbrake
   architectures:
     - amd64
   description:
@@ -75,7 +74,6 @@ x-casaos:
   store_app_id: handbrake
   title:
     en_US: handbrake
-  version: "26.3.3"
   update_at: "2026-03-23"
   release_notes:
     en_US: |-

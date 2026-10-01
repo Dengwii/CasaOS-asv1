@@ -18,7 +18,6 @@ services:
         target: /pb_data
     container_name: pocketbase
 x-casaos:
-  id: org.icewhale.pocketbase
   architectures:
     - amd64
   main: pocketbase
@@ -53,7 +52,6 @@ x-casaos:
     en_US: PocketBase
   index: /_/
   port_map: "8090"
-  version: "0.26.6"
   update_at: "2025-04-14"
   release_notes:
     en_US: |-

@@ -54,7 +54,6 @@ services:
             en_US: ""
     container_name: sickchill
 x-casaos:
-  id: org.icewhale.sickchill
   architectures:
     - amd64
     - arm64
@@ -116,7 +115,6 @@ x-casaos:
   title:
     en_US: Sickchill
   port_map: "8081"
-  version: "2023.6.27"
   update_at: "2024-01-04"
   release_notes:
     en_US: |-

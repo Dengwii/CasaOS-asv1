@@ -131,7 +131,6 @@ services:
             ru_RU: Включает автономный режим iOS
             tr_TR: iOS bağımsız modunu etkinleştirir
 x-casaos:
-  id: org.icewhale.beaverhabittracker
   architectures:
     - amd64
     - arm64
@@ -422,7 +421,6 @@ x-casaos:
   index: /
   title:
     en_US: BeaverHabitTracker
-  version: "0.9.1"
   update_at: "2026-05-20"
   release_notes:
     en_US: |-

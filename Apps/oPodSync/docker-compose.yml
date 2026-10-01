@@ -55,7 +55,6 @@ services:
             zh_CN: Web界面端口
 
 x-casaos:
-  id: org.icewhale.opodsync
   title:
     de_DE: oPodSync
     el_GR: oPodSync
@@ -312,7 +311,6 @@ x-casaos:
     - arm64
   index: /
   scheme: http
-  version: "0.0.1"
   update_at: "2026-05-01"
   release_notes: ""
   website: "https://fossil.kd2.org/opodsync/"

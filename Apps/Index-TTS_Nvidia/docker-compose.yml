@@ -58,7 +58,6 @@ services:
             zh_CN: Gradio WebUI端口
 
 x-casaos:
-  id: org.icewhale.indexttsnvidia
   title:
     de_DE: Index-TTS(Nvidia GPU)
     el_GR: Index-TTS(Nvidia GPU)
@@ -421,7 +420,6 @@ x-casaos:
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS_Nvidia/screenshot-2.png
     - https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS_Nvidia/screenshot-3.png
   thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Index-TTS_Nvidia/thumbnail.png
-  version: "2.0.0"
   update_at: "2025-12-19"
   release_notes:
     en_US: |-

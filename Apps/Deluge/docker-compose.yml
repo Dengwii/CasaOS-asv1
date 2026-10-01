@@ -76,7 +76,6 @@ services:
             zh_CN: Deluge 可访问目录。
     container_name: deluge
 x-casaos:
-  id: org.icewhale.deluge
   architectures:
     - amd64
     - arm64
@@ -153,7 +152,6 @@ x-casaos:
     en_US: Deluge
   index: /
   port_map: "8112"
-  version: "2.2.0"
   update_at: "2026-05-18"
   release_notes:
     en_US: |-

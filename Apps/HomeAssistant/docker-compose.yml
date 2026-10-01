@@ -98,7 +98,6 @@ services:
             tr_TR: HomeAssistant yapılandırma dizini.
     container_name: homeassistant
 x-casaos:
-  id: org.icewhale.homeassistant
   architectures:
     - amd64
     - arm64
@@ -480,7 +479,6 @@ x-casaos:
     en_US: Home Assistant
   index: /
   port_map: "8123"
-  version: "2026.5.4"
   update_at: "2026-05-22"
   release_notes:
     en_US: |-

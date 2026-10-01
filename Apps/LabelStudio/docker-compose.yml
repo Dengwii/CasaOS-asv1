@@ -32,7 +32,6 @@ services:
             en_US: WebUI HTTP Port
             zh_CN: WebUI HTTP 端口
 x-casaos:
-  id: org.icewhale.labelstudio
   architectures:
     - amd64
     - arm64
@@ -54,7 +53,6 @@ x-casaos:
   title:
     en_US: Label Studio   
   port_map: "3080"
-  version: "1.23.0"
   update_at: "2026-03-13"
   release_notes:
     en_US: |-

@@ -60,7 +60,6 @@ services:
             ru_RU: Каталог моделей и данных Ollama
             tr_TR: Ollama Modeller ve Veri Dizini
 x-casaos:
-  id: org.icewhale.ollamanvidia
   architectures:
     - amd64
     - arm64
@@ -681,7 +680,6 @@ x-casaos:
   index: /
   title:
     en_US: Ollama(Nvidia GPU)
-  version: "0.9.5"
   update_at: "2025-07-02"
   release_notes:
     en_US: |-

@@ -421,7 +421,6 @@ networks:
   romm-network:
     driver: bridge
 x-casaos:
-  id: org.icewhale.romm
   architectures:
     - amd64
     - arm64
@@ -789,7 +788,6 @@ x-casaos:
   index: /
   title:
     en_US: RomM
-  version: "4.8.1"
   update_at: "2026-04-03"
   release_notes:
     en_US: |-

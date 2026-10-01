@@ -29,7 +29,6 @@ services:
             zh_CN: ddns-go 配置目录
     container_name: ddns-go
 x-casaos:
-  id: org.icewhale.ddnsgo
   architectures:
     - amd64
     - arm
@@ -57,7 +56,6 @@ x-casaos:
     zh_CN: 简单好用的DDNS
   title:
     en_US: ddns-go
-  version: "6.17.1"
   update_at: "2026-05-31"
   release_notes:
     en_US: |-

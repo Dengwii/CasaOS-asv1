@@ -24,7 +24,6 @@ services:
     entrypoint: /bin/sh -c "sleep 3; flowise start"
 
 x-casaos:
-  id: org.icewhale.flowise
   architectures:
     - amd64
   main: flowise
@@ -367,7 +366,6 @@ x-casaos:
   port_map: "3025"
   scheme: http
   index: /
-  version: "3.1.2"
   update_at: "2026-04-14"
   release_notes:
     en_US: |-

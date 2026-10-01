@@ -32,7 +32,6 @@ services:
             ru_RU: HTTP порт WebUI
             tr_TR: WebUI HTTP Portu
 x-casaos:
-  id: org.icewhale.excalidraw
   architectures:
     - amd64
   main: excalidraw
@@ -399,7 +398,6 @@ x-casaos:
   index: /
   title:
     en_US: Excalidraw
-  version: "0.18.1"
   update_at: "2026-05-06"
   release_notes: ""
   website: "https://excalidraw.com/"

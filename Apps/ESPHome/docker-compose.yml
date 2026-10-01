@@ -44,7 +44,6 @@ services:
             en_US: WebUI Port for ESPHome
             zh_CN: ESPHome 的 WebUI 端口
 x-casaos:
-  id: org.icewhale.esphome
   architectures:
     - amd64
     - arm64
@@ -67,7 +66,6 @@ x-casaos:
   store_app_id: esphome
   title:
     en_US: ESPHome
-  version: "2026.5.1"
   update_at: "2026-05-24"
   release_notes:
     en_US: |-

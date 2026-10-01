@@ -34,7 +34,6 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  id: org.icewhale.motioneye
   architectures:
     - amd64
   author: f4bio
@@ -58,7 +57,6 @@ x-casaos:
     zh_CN: 用于motion的Web前端守护程序。
   title:
     en_US: Motioneye
-  version: "0.44.0"
   update_at: "2020-06-06"
   release_notes: ""
   website: ""

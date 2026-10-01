@@ -24,7 +24,6 @@ services:
         target: /var/lib/databag
     container_name: databag
 x-casaos:
-  id: org.icewhale.databag
   architectures:
     - amd64
     - arm64
@@ -45,7 +44,6 @@ x-casaos:
   title:
     en_US: Databag
   port_map: "7000"
-  version: "0.1.18"
   update_at: "2025-10-15"
   release_notes: ""
   website: ""

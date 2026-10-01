@@ -238,7 +238,6 @@ networks:
     name: dify
 
 x-casaos:
-  id: org.icewhale.dify
   architectures:
     - amd64
   main: web
@@ -263,7 +262,6 @@ x-casaos:
     en_US: Dify
   index: /
   port_map: "3701"
-  version: "0.15.8"
   update_at: "2025-05-30"
   release_notes:
     en_US: |-

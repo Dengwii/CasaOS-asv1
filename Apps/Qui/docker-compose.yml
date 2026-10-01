@@ -89,7 +89,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.icewhale.qui
   architectures:
     - amd64
     - arm64
@@ -150,7 +149,6 @@ x-casaos:
   index: /
   port_map: "7476"
   scheme: http
-  version: "1.28.0"
   update_at: "2026-09-03"
   release_notes:
     en_US: |-

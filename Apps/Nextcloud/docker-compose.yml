@@ -38,7 +38,6 @@ services:
             zh_CN: Nextcloud 配置目录。
     container_name: nextcloud
 x-casaos:
-  id: org.icewhale.nextcloud
   architectures:
     - amd64
     - arm
@@ -101,7 +100,6 @@ x-casaos:
     en_US: Nextcloud
   index: /
   port_map: "10081"
-  version: "33.0.3"
   update_at: "2026-04-30"
   release_notes:
     en_US: |-

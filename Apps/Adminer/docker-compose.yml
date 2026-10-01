@@ -17,7 +17,6 @@ services:
             zh_CN: Adminer HTTP 端口
     container_name: adminer
 x-casaos:
-  id: org.icewhale.adminer
   architectures:
     - amd64
     - arm
@@ -41,7 +40,6 @@ x-casaos:
   title:
     en_US: Adminer
   port_map: '8080'
-  version: "5.4.2"
   update_at: "2026-02-08"
   release_notes:
     en_US: |-

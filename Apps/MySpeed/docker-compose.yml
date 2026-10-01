@@ -32,7 +32,6 @@ services:
             zh_CN: MySpeed数据文件夹
 
 x-casaos:
-  id: org.icewhale.myspeed
   architectures:
     - amd64
     - arm64
@@ -59,7 +58,6 @@ x-casaos:
     pt_BR: MySpeed
   index: /
   port_map: "5216"
-  version: "1.0.9"
   update_at: "2024-05-21"
   release_notes:
     en_US: |-

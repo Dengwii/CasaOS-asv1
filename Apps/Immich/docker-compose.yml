@@ -73,7 +73,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.icewhale.immich
   architectures:
     - amd64
     - arm64
@@ -398,7 +397,6 @@ x-casaos:
   port_map: "2283"
   scheme: http
   index: /
-  version: "2.7.2"
   update_at: "2026-04-07"
   release_notes:
     en_US: |-

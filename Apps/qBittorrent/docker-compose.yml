@@ -59,7 +59,6 @@ services:
             zh_CN: qBittorrent 可访问目录。
     container_name: qbittorrent
 x-casaos:
-  id: org.icewhale.qbittorrent
   architectures:
     - amd64
     - arm64
@@ -166,7 +165,6 @@ x-casaos:
     en_US: qBittorrent
   index: /
   port_map: "8181"
-  version: "5.0.4"
   update_at: "2025-04-09"
   release_notes:
     en_US: |-

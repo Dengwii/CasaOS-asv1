@@ -608,7 +608,6 @@ networks:
   librechat-net:
     driver: bridge
 x-casaos:
-  id: org.icewhale.librechat
   architectures:
     - amd64
   main: librechat-api
@@ -955,7 +954,6 @@ x-casaos:
       
       **ekstra:**
       Anyscale, ApiPie, Cohere, Deepseek, Databricks, Fireworks, Groq, HuggingFace, Mistral, OpenRouter, Perplexity, ShuttleAI, TogetherAI, Unify ve xAI API'lerini çağırmak için ilgili dosyaları yapılandırmak üzere [Özel AI Uç Noktaları](https://www.librechat.ai/docs/configuration/librechat_yaml/ai_endpoints) belgelerine başvurabilirsiniz.
-  version: "0.8.7-rc1"
   update_at: "2026-05-19"
   release_notes: ""
   website: "https://www.librechat.ai"

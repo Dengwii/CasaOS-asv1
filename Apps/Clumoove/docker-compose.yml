@@ -103,7 +103,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.clumoove.app
   architectures:
     - amd64
     - arm64
@@ -151,7 +150,6 @@ x-casaos:
   port_map: "8380"
   scheme: http
   index: /
-  version: "0.18.0"
   update_at: "2026-09-09"
   release_notes:
     en_US: |-

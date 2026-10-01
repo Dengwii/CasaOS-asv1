@@ -81,7 +81,6 @@ services:
             tr_TR: PdfDing medya dosyaları dizini
     container_name: pdfding
 x-casaos:
-  id: org.icewhale.pdfding
   architectures:
     - amd64
     - arm64
@@ -269,7 +268,6 @@ x-casaos:
 
   title:
     en_US: PdfDing
-  version: "1.7.2"
   update_at: "2026-04-12"
   release_notes:
     en_US: |-

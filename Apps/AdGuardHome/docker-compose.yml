@@ -58,7 +58,6 @@ services:
             en_US: ""
     container_name: adguard-home
 x-casaos:
-  id: org.icewhale.adguardhome
   architectures:
     - "386"
     - amd64
@@ -118,7 +117,6 @@ x-casaos:
     en_US: AdGuard Home
   index: /
   port_map: "3001"
-  version: "0.107.79"
   update_at: "2026-09-01"
   release_notes:
     en_US: |-

@@ -42,7 +42,6 @@ services:
             en_US: ""
     container_name: prowlarr
 x-casaos:
-  id: org.icewhale.prowlarr
   architectures:
     - amd64
     - arm64
@@ -87,7 +86,6 @@ x-casaos:
   title:
     en_US: Prowlarr
   port_map: "9696"
-  version: "2.5.2"
   update_at: "2026-08-20"
   release_notes:
     en_US: |-

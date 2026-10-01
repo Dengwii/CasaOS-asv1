@@ -26,7 +26,6 @@ services:
           memory: 32M
 
 x-casaos:
-  id: org.icewhale.firefly
   architectures:
     - amd64
     - arm64
@@ -56,7 +55,6 @@ x-casaos:
   port_map: "50121"
   scheme: http
   index: /
-  version: "0.0.1"
   update_at: "2025-02-21"
   release_notes: ""
   website: "https://qq.uusec.com/"

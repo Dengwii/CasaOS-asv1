@@ -76,7 +76,6 @@ services:
             zh_CN: PeaNUT配置目录
 
 x-casaos:
-  id: org.icewhale.peanut
   title:
     de_DE: PeaNUT
     el_GR: PeaNUT
@@ -458,7 +457,6 @@ x-casaos:
   scheme: http
   developer: brandawg93
   thumbnail: https://cdn.jsdelivr.net/gh/IceWhaleTech/CasaOS-AppStore@main/Apps/Peanut/thumbnail.png
-  version: "6.0.0"
   update_at: "2026-05-02"
   release_notes:
     en_US: |-

@@ -56,7 +56,6 @@ services:
             tr_TR: Node-RED veri dizini
     container_name: node-red
 x-casaos:
-  id: org.icewhale.nodered
   architectures:
     - amd64
     - arm64
@@ -392,7 +391,6 @@ x-casaos:
     en_US: Node-RED
   index: /
   port_map: "1880"
-  version: "4.1.10"
   update_at: "2026-05-08"
   release_notes:
     en_US: |-

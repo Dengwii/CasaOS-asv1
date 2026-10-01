@@ -96,7 +96,6 @@ services:
             zh_CN: OpenMax库
     container_name: jellyfin
 x-casaos:
-  id: org.icewhale.jellyfin
   architectures:
     - amd64
     - arm64
@@ -222,7 +221,6 @@ x-casaos:
     en_US: Jellyfin
   index: /
   port_map: "8097"
-  version: "10.11.10"
   update_at: "2026-05-24"
   release_notes:
     en_US: |-

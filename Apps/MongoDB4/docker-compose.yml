@@ -52,7 +52,6 @@ services:
         target: /data/db
     container_name: mongodb4
 x-casaos:
-  id: org.icewhale.mongodb4
   architectures:
     - amd64
     - arm64
@@ -89,7 +88,6 @@ x-casaos:
   category: Developer
   title:
     en_US: MongoDB 4
-  version: "4.4.22"
   update_at: "2023-07-04"
   release_notes:
     en_US: |-

@@ -53,7 +53,6 @@ services:
             zh_CN: Nginx 代理管理器 letsencrypt 目录。
     container_name: nginxproxymanager
 x-casaos:
-  id: org.icewhale.nginxproxymanager
   architectures:
     - amd64
     - arm64
@@ -125,7 +124,6 @@ x-casaos:
     zh_CN: Nginx 代理管理器
   index: /
   port_map: "81"
-  version: "2.13.5"
   update_at: "2025-11-18"
   release_notes:
     en_US: |-

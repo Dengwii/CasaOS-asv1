@@ -48,7 +48,6 @@ services:
             zh_CN: 思源笔记默认工作区
     container_name: siyuan-note
 x-casaos:
-  id: org.icewhale.siyuannote
   architectures:
     - amd64
     - arm64
@@ -95,7 +94,6 @@ x-casaos:
     zh_CN: 思源笔记
   index:
   port_map: "6806"
-  version: "3.6.5"
   update_at: "2026-04-21"
   release_notes:
     en_US: |-

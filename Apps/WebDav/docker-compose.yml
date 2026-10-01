@@ -29,7 +29,6 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  id: org.icewhale.webdav
   architectures:
     - amd64
     - "386"
@@ -89,7 +88,6 @@ x-casaos:
     en_US: WebDAV
   index: /
   port_map: "5005"
-  version: "0.0.1"
   update_at: "2022-11-24"
   release_notes: ""
   website: ""

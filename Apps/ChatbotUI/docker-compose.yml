@@ -19,7 +19,6 @@ services:
             en_US: WebUI HTTP Port
     container_name: chatbot-ui
 x-casaos:
-  id: org.icewhale.chatbotui
   architectures:
     - amd64
     - arm64
@@ -62,7 +61,6 @@ x-casaos:
     en_US: Chatbot UI
   index: /
   port_map: "3080"
-  version: "0.0.1"
   update_at: "2024-01-04"
   release_notes: ""
   website: "https://www.chatbotui.com"

@@ -189,7 +189,6 @@ networks:
   karakeep:
     driver: bridge
 x-casaos:
-  id: org.icewhale.karakeep
   architectures:
     - amd64
     - arm64
@@ -527,7 +526,6 @@ x-casaos:
   index: /
   title:
     en_US: Karakeep
-  version: "0.33.2"
   update_at: "2026-08-11"
   release_notes:
     en_US: |-

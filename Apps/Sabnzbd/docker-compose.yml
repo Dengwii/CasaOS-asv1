@@ -54,7 +54,6 @@ services:
             en_US: ""
     container_name: sabnzbd
 x-casaos:
-  id: org.icewhale.sabnzbd
   architectures:
     - amd64
     - arm64
@@ -104,7 +103,6 @@ x-casaos:
   title:
     en_US: Sabnzbd
   port_map: "8282"
-  version: "5.0.3"
   update_at: "2026-05-21"
   release_notes:
     en_US: |-

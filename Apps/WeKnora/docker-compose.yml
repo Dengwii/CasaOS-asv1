@@ -1348,7 +1348,6 @@ networks:
   weknora-network:
     driver: bridge
 x-casaos:
-  id: org.icewhale.weknora
   title:
     de_DE: WeKnora
     el_GR: WeKnora
@@ -1608,7 +1607,6 @@ x-casaos:
     - arm64
   index: /
   scheme: http
-  version: "0.2.14"
   update_at: "2026-01-30"
   release_notes:
     en_US: |-

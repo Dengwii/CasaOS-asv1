@@ -44,7 +44,6 @@ services:
     container_name: threadfin
 
 x-casaos:
-  id: org.icewhale.threadfin
   architectures:
     - amd64
     - arm64
@@ -67,7 +66,6 @@ x-casaos:
   title:
     en_US: Threadfin
     zh_CN: Threadfin
-  version: "1.2.37"
   update_at: "2025-09-11"
   release_notes: "Threadfin 1.2.37 clears XMLTV cache during updates and adds older glibc to the build process."
   website: ""

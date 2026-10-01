@@ -95,7 +95,6 @@ services:
             zh_CN: 自定义徽标和图标的前端图像目录
 
 x-casaos:
-  id: org.icewhale.pingvinshare
   title:
     de_DE: Pingvin-Share
     el_GR: Pingvin-Share
@@ -370,7 +369,6 @@ x-casaos:
     - arm64
   index: /
   scheme: http
-  version: "1.13.0"
   update_at: "2025-05-25"
   release_notes:
     en_US: |-

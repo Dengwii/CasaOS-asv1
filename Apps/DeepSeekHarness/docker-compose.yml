@@ -22,7 +22,6 @@ services:
         bind:
           create_host_path: true
 x-casaos:
-  id: org.icewhale.dsh-harness
   architectures:
     - amd64
     - arm64
@@ -77,5 +76,4 @@ x-casaos:
   repo: "https://github.com/deepseek-ai/deepseek-harness"
   support: "https://github.com/deepseek-ai/deepseek-harness/discussions"
   docs: "https://api-docs.deepseek.com/"
-  version: "0.1.0"
   release_notes: ""

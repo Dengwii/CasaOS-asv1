@@ -81,7 +81,6 @@ services:
             tr_TR: Portainer veri dizini
     container_name: portainer
 x-casaos:
-  id: org.icewhale.portainer
   architectures:
     - amd64
     - arm
@@ -373,7 +372,6 @@ x-casaos:
   index: /
   port_map: "9000"
   scheme: http
-  version: "2.31.3"
   update_at: "2025-07-03"
   release_notes:
     en_US: |-

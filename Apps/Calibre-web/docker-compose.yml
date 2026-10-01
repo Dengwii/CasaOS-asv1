@@ -52,7 +52,6 @@ services:
             en_US: ""
     container_name: calibre-web
 x-casaos:
-  id: org.icewhale.calibreweb
   architectures:
     - amd64
     - arm64
@@ -108,7 +107,6 @@ x-casaos:
     en_US: Calibre-web
   index: /
   port_map: "8083"
-  version: "0.6.24"
   update_at: "2025-08-24"
   release_notes:
     en_US: |-

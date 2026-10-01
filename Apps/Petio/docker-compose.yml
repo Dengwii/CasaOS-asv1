@@ -60,7 +60,6 @@ networks:
   petio-network:
     driver: bridge
 x-casaos:
-  id: org.icewhale.petio
   architectures:
     - amd64
     - arm64
@@ -138,7 +137,6 @@ x-casaos:
     en_US: Petio
   category: Media
   port_map: '7777'
-  version: "0.5.5"
   update_at: "2022-01-13"
   release_notes: ""
   website: "https://petio.tv"

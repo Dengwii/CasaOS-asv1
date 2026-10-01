@@ -51,7 +51,6 @@ services:
         target: /config
     container_name: cloudflared
 x-casaos:
-  id: org.icewhale.cloudflared
   architectures:
     - amd64
     - arm
@@ -265,7 +264,6 @@ x-casaos:
   title:
     en_US: Cloudflared
   port_map: '14333'
-  version: "2026.5.0"
   update_at: "2026-05-16"
   release_notes:
     en_US: |-

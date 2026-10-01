@@ -54,7 +54,6 @@ services:
             en_US: "Mylar3 downloads directory"
     container_name: mylar3
 x-casaos:
-  id: org.icewhale.mylar3
   architectures:
     - amd64
     - arm64
@@ -101,7 +100,6 @@ x-casaos:
   title:
     en_US: Mylar3
   port_map: "8090"
-  version: "0.9.0"
   update_at: "2026-05-22"
   release_notes:
     en_US: |-

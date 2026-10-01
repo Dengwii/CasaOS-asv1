@@ -16,7 +16,6 @@ services:
     network_mode: host
     privileged: false
 x-casaos:
-  id: org.icewhale.lucky
   architectures:
     - amd64
     - arm
@@ -46,7 +45,6 @@ x-casaos:
   port_map: "16601"
   scheme: http
   store_app_id: lucky
-  version: "2.27.2"
   update_at: "2026-02-15"
   release_notes:
     en_US: |-

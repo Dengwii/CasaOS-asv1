@@ -85,7 +85,6 @@ services:
             zh_CN: GGUF 模型文件目录
             zh_TW: GGUF 模型檔案目錄
 x-casaos:
-  id: org.icewhale.llamacpp
   main: llamacpp
   index: /
   port_map: '18080'
@@ -550,7 +549,6 @@ x-casaos:
   architectures:
     - amd64
     - arm64
-  version: 1.0.0
   update_at: '2026-08-26'
   release_notes:
     ca_ES: 'Primera versió: servidor llama.cpp amb acceleració GPU Vulkan (ghcr.io/ggml-org/llama.cpp:server).'

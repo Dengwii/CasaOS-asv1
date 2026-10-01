@@ -1343,7 +1343,6 @@ networks:
   ragflow:
     driver: bridge
 x-casaos:
-  id: org.icewhale.ragflow
   architectures:
     - amd64
   author: RagFlow
@@ -1674,7 +1673,6 @@ x-casaos:
     sv_SE: RagFlow
     tr_TR: RagFlow
     zh_CN: RagFlow
-  version: "0.21.1"
   update_at: "2025-10-30"
   release_notes:
     en_US: |-

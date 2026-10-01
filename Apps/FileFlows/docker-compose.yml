@@ -38,7 +38,6 @@ services:
         source: /var/run/docker.sock
         target: /var/run/docker.sock
 x-casaos:
-  id: org.icewhale.fileflows
   architectures:
     - amd64
     - arm64
@@ -123,7 +122,6 @@ x-casaos:
       Зекономте місце на сховищі за допомогою ефективної обробки файлів.
   
       FileFlows дозволяє вам моніторити та обробляти будь-який тип файлів за допомогою настроюваних потоків. Відео, аудіо, зображення, архіви, комікси, електронні книги — все, що потрібно!
-  version: "0.0.1"
   update_at: "2026-04-30"
   release_notes: ""
   website: "https://fileflows.com/"

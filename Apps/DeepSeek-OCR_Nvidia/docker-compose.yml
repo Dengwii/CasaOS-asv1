@@ -272,7 +272,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.icewhale.deepseekocrnvidia
   architectures:
     - amd64
   author: ZimaOS Team
@@ -608,7 +607,6 @@ x-casaos:
     sv_SE: DeepSeek OCR(Nvidia GPU)
     tr_TR: DeepSeek OCR(Nvidia GPU)
     zh_CN: DeepSeek OCR(Nvidia GPU)
-  version: "2.2.0"
   update_at: "2025-12-10"
   release_notes: ""
   website: ""

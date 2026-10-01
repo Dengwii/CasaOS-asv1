@@ -77,7 +77,6 @@ services:
             ru_RU: Задает маску создания файлов по умолчанию для OpenList
             tr_TR: OpenList için varsayılan dosya oluşturma maskesini ayarlar
 x-casaos:
-  id: org.icewhale.openlist
   architectures:
     - amd64
     - arm
@@ -401,7 +400,6 @@ x-casaos:
   index: /
   title:
     en_US: OpenList
-  version: "4.2.2"
   update_at: "2026-05-25"
   release_notes:
     en_US: |-

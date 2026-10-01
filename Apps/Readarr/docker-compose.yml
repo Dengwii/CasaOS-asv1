@@ -55,7 +55,6 @@ services:
             en_US: "Readarr downloads directory"
     container_name: readarr
 x-casaos:
-  id: org.icewhale.readarr
   architectures:
     - amd64
     - arm64
@@ -102,7 +101,6 @@ x-casaos:
   title:
     en_US: Readarr
   port_map: "8787"
-  version: "0.3.10-develop"
   update_at: "2023-12-07"
   release_notes: ""
   website: "https://readarr.com"

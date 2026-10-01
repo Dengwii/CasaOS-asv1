@@ -46,7 +46,6 @@ services:
           memory: 500M  # Modify as needed since the original command didn't specify memory reservation
 
 x-casaos:
-  id: org.icewhale.twingateconnector
   architectures:
     - amd64
     - arm64
@@ -68,7 +67,6 @@ x-casaos:
   hostname: ""
   index: /
   port_map: ""
-  version: "1.0.0"
   update_at: "2026-04-22"
   release_notes: ""
   website: "https://www.twingate.com"

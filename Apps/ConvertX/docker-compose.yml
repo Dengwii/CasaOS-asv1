@@ -93,7 +93,6 @@ services:
 
     
 x-casaos:
-  id: org.icewhale.convertx
   architectures:
     - amd64
     - arm64
@@ -383,7 +382,6 @@ x-casaos:
   scheme: http
   title:
     en_US: ConvertX
-  version: "0.17.0"
   update_at: "2026-01-13"
   release_notes:
     en_US: |-

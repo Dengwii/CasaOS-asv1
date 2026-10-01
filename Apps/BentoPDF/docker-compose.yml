@@ -43,7 +43,6 @@ services:
             zh_CN: Web 界面 HTTP 端口。
 
 x-casaos:
-  id: com.icewhale.bentopdf
   main: bentopdf
   index: /
   port_map: "3000"
@@ -96,7 +95,6 @@ x-casaos:
   architectures:
     - amd64
     - arm64
-  version: "2.8.8"
   update_at: "2026-09-03"
   release_notes:
     en_US: |-

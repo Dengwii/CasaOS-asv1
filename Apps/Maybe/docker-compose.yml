@@ -187,7 +187,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.icewhale.maybe
   architectures:
     - amd64
     - arm64
@@ -537,7 +536,6 @@ x-casaos:
     pt_PT: Maybe
     ru_RU: Maybe
     tr_TR: Maybe
-  version: "0.6.0"
   update_at: "2025-07-24"
   release_notes: ""
   website: ""

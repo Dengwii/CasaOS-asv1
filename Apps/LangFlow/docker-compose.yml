@@ -177,7 +177,6 @@ networks:
   langflow-net:
     driver: bridge
 x-casaos:
-  id: org.icewhale.langflow
   architectures:
     - amd64
   main: langflow
@@ -496,7 +495,6 @@ x-casaos:
     pt_PT: Langflow
     ru_RU: Langflow
     tr_TR: Langflow
-  version: "1.9.3"
   update_at: "2026-05-15"
   release_notes:
     en_US: |-

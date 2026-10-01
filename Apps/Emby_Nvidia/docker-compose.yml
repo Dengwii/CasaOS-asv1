@@ -77,7 +77,6 @@ services:
             en_US: ""
     container_name: emby
 x-casaos:
-  id: org.icewhale.embynvidia
   architectures:
     - amd64
     - arm64
@@ -124,7 +123,6 @@ x-casaos:
     en_US: Emby(Nvidia GPU)
   index: /
   port_map: "8096"
-  version: "4.9.5"
   update_at: "2026-05-26"
   release_notes:
     en_US: |-

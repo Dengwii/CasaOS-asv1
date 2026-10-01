@@ -103,7 +103,6 @@ services:
             en_US: ""
     container_name: unifi-controller
 x-casaos:
-  id: org.icewhale.unificontroller
   architectures:
     - amd64
     - arm64
@@ -151,7 +150,6 @@ x-casaos:
     zh_CN: Unifi控制器 [legacy]
   index: /
   port_map: "8383"
-  version: "8.0.7"
   update_at: "2023-12-01"
   release_notes:
     en_US: |-

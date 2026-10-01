@@ -36,7 +36,6 @@ services:
             ru_RU: HTTP порт веб-интерфейса
             tr_TR: WebUI HTTP Portu
 x-casaos:
-  id: org.icewhale.retroarch
   architectures:
     - amd64
     - arm64
@@ -387,7 +386,6 @@ x-casaos:
   index: /
   title:
     en_US: RetroArch
-  version: "0.0.1"
   update_at: "2025-11-20"
   release_notes: ""
   website: "https://www.retroarch.com"

@@ -42,7 +42,6 @@ services:
             en_US: ""
     container_name: tautulli
 x-casaos:
-  id: org.icewhale.tautulli
   architectures:
     - amd64
     - arm64
@@ -90,7 +89,6 @@ x-casaos:
     en_US: Tautulli
   index: /
   port_map: "8181"
-  version: "2.17.1"
   update_at: "2026-05-05"
   release_notes:
     en_US: |-

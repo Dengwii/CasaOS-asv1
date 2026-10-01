@@ -54,7 +54,6 @@ services:
             en_US: ""
     container_name: duplicati
 x-casaos:
-  id: org.icewhale.duplicati
   architectures:
     - amd64
     - arm64
@@ -101,7 +100,6 @@ x-casaos:
     en_US: Duplicati
   index: /
   port_map: "8200"
-  version: "2.1.0"
   update_at: "2025-10-18"
   release_notes:
     en_US: |-

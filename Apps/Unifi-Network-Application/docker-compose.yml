@@ -85,7 +85,6 @@ configs:
       db.getSiblingDB("unifi-db").createUser({user: "unifi", pwd: "pass", roles: [{role: "dbOwner", db: "unifi-db"}]}); 
       db.getSiblingDB("unifi-db_stat").createUser({user: "unifi", pwd: "pass", roles: [{role: "dbOwner", db: "unifi-db_stat"}]});
 x-casaos:
-  id: org.icewhale.unifinetworkapplication
   architectures:                 
     - amd64
     - arm64
@@ -146,7 +145,6 @@ x-casaos:
   store_app_id: unifi-network-application
   title:
     en_US: Unifi Network Application
-  version: "10.4.57-ls133"
   update_at: "2026-05-12"
   release_notes: ""
   website: "https://ui.com"

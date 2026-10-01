@@ -154,7 +154,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.icewhale.taskingai
   architectures:
     - amd64
     - arm64
@@ -186,7 +185,6 @@ x-casaos:
     en_US: TaskingAI
   port_map: "3080"
 
-  version: "0.3.0"
   update_at: "2024-05-30"
   release_notes:
     en_US: |-

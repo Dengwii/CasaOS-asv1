@@ -27,7 +27,6 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  id: org.icewhale.medusa
   architectures:
     - amd64
     - arm64
@@ -52,7 +51,6 @@ x-casaos:
   store_app_id: medusa
   title:
     en_US: Medusa
-  version: "1.0.25"
   update_at: "2026-05-17"
   release_notes: ""
   website: ""

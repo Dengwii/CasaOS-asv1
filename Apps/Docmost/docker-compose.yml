@@ -254,7 +254,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.icewhale.docmost
   architectures:
     - amd64
     - arm64
@@ -598,7 +597,6 @@ x-casaos:
   index: /
   title:
     en_US: Docmost
-  version: "0.90.0"
   update_at: "2026-05-21"
   release_notes:
     en_US: |-

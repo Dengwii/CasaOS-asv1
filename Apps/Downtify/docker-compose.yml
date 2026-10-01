@@ -44,7 +44,6 @@ services:
             pt_BR: Diretório onde o aplicativo salvará seus dados.
     container_name: downtify
 x-casaos:
-  id: org.icewhale.downtify
   architectures:
     - amd64
     - arm64
@@ -68,7 +67,6 @@ x-casaos:
     en_US: Downtify
   index: /
   port_map: "8582"
-  version: "2.7.0"
   update_at: "2026-05-11"
   release_notes:
     en_US: |-

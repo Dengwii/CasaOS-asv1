@@ -46,7 +46,6 @@ services:
           description:
             en_US: SQLite database
 x-casaos:
-  id: io.github.samtv12345.podfetch
   architectures:
     - amd64
     - arm64
@@ -73,7 +72,6 @@ x-casaos:
   index: /
   port_map: "8000"
   scheme: http
-  version: "5.2.3"
   update_at: "2026-09-03"
   release_notes:
     en_US: |-

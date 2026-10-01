@@ -44,7 +44,6 @@ services:
         source: /DATA/Media
         target: /media/frigate
 x-casaos:
-  id: org.icewhale.frigate
   architectures:
     - amd64
     - arm64
@@ -96,7 +95,6 @@ x-casaos:
   index: /
   scheme: https
   port_map: "8971"
-  version: "0.17.2"
   update_at: "2026-06-28"
   release_notes:
     en_US: |-

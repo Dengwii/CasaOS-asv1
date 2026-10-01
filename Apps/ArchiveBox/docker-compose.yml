@@ -506,7 +506,6 @@ networks:
     driver: bridge
 
 x-casaos:
-  id: org.icewhale.archivebox
   architectures:
     - amd64
   main: archivebox
@@ -962,7 +961,6 @@ x-casaos:
     pt_PT: ArchiveBox
     ru_RU: ArchiveBox
     tr_TR: ArchiveBox
-  version: "0.7.4"
   update_at: "2026-05-18"
   release_notes:
     en_US: |-

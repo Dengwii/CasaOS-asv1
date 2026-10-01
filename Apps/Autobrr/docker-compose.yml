@@ -32,7 +32,6 @@ services:
             en_US: Autobrr config directory
             zh_CN: Autobrr配置目录
 x-casaos:
-  id: org.icewhale.autobrr
   main: autobrr
   architectures:
     - amd64
@@ -54,7 +53,6 @@ x-casaos:
   tagline:
     en_US: Modern, easy to use download automation for torrents and usenet.
     zh_CN: 现代、易于使用的Torrents和Usenet下载自动化工具。
-  version: "1.79.0"
   update_at: "2026-05-17"
   release_notes:
     en_US: |-

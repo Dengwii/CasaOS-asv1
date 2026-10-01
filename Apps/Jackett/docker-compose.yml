@@ -52,7 +52,6 @@ services:
             en_US: ""
     container_name: jackett
 x-casaos:
-  id: org.icewhale.jackett
   architectures:
     - amd64
     - arm64
@@ -99,7 +98,6 @@ x-casaos:
     en_US: Jackett
   index: /
   port_map: "9117"
-  version: "0.24.1985"
   update_at: "2026-05-31"
   release_notes:
     en_US: |-

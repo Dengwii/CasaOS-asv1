@@ -48,7 +48,6 @@ services:
             en_US: ""
     container_name: smokeping
 x-casaos:
-  id: org.icewhale.smokeping
   architectures:
     - amd64
     - arm64
@@ -96,7 +95,6 @@ x-casaos:
   title:
     en_US: Smokeping
   port_map: "10280"
-  version: "2.9.0"
   update_at: "2026-05-26"
   release_notes:
     en_US: |-

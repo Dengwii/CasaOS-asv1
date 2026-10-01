@@ -76,7 +76,6 @@ services:
             ru_RU: Каталог кэша Hugo
             tr_TR: Hugo önbellek dizini
 x-casaos:
-  id: org.icewhale.hugo
   architectures:
     - amd64
     - arm64
@@ -714,7 +713,6 @@ x-casaos:
   index: /
   title:
     en_US: Hugo
-  version: "0.161.1"
   update_at: "2026-04-29"
   release_notes:
     en_US: |-

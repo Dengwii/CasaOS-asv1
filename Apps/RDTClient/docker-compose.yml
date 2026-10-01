@@ -31,7 +31,6 @@ services:
     network_mode: bridge
     privileged: false
 x-casaos:
-  id: org.icewhale.rdtclient
   architectures:                  # a list of architectures that the app supports
       - amd64
       - arm64
@@ -46,7 +45,6 @@ x-casaos:
   store_app_id: rdtclient
   title:
     en_US: Real-Debrid Torrent Client
-  version: "2.0.136"
   update_at: "2026-05-30"
   release_notes: "RDTClient v2.0.136 adds a devcontainer development workflow and upgrades the torbox.net dependency."
   website: ""

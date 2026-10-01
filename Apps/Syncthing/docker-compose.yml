@@ -79,7 +79,6 @@ services:
             zh_CN: Syncthing可访问目录
     container_name: syncthing
 x-casaos:
-  id: org.icewhale.syncthing
   architectures:
     - amd64
     - arm64
@@ -294,7 +293,6 @@ x-casaos:
     en_US: Syncthing
   index: /
   port_map: "8384"
-  version: "1.29.7"
   update_at: "2025-06-14"
   release_notes:
     en_US: |-

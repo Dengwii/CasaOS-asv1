@@ -68,7 +68,6 @@ services:
             zh_CN: PyLoad下载目录
 
 x-casaos:
-  id: org.icewhale.pyload
   architectures:
     - amd64
     - arm64
@@ -134,7 +133,6 @@ x-casaos:
     pt_BR: PyLoad
   index: /
   port_map: "8000"
-  version: "0.5.0"
   update_at: "2026-05-17"
   release_notes: ""
   website: "https://pyload.net"

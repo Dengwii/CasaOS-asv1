@@ -29,7 +29,6 @@ services:
 
     container_name: grafana
 x-casaos:
-  id: org.icewhale.grafana
   architectures:
     - amd64
     - arm64
@@ -111,7 +110,6 @@ x-casaos:
     en_US: Grafana
   index: /
   port_map: "3003"
-  version: "13.0.1-security-01"
   update_at: "2026-05-12"
   release_notes:
     en_US: |-

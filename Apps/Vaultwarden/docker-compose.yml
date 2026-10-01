@@ -30,7 +30,6 @@ services:
             zh_CN: Vaultwarden 数据目录。
     container_name: vaultwarden
 x-casaos:
-  id: org.icewhale.vaultwarden
   architectures:
     - amd64
     - arm
@@ -78,7 +77,6 @@ x-casaos:
     en_US: Vaultwarden
   index: /
   port_map: "10380"
-  version: "1.36.0"
   update_at: "2026-05-03"
   release_notes:
     en_US: |-

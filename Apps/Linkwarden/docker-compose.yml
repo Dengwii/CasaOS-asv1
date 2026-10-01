@@ -429,7 +429,6 @@ networks:
     driver: bridge
 name: linkwarden
 x-casaos:
-  id: org.icewhale.linkwarden
   title:
     de_DE: Linkwarden
     el_GR: Linkwarden
@@ -765,7 +764,6 @@ x-casaos:
     - arm64
   index: /
   scheme: http
-  version: "2.14.1"
   update_at: "2026-04-23"
   release_notes:
     en_US: |-

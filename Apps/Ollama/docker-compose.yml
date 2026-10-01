@@ -56,7 +56,6 @@ services:
             ru_RU: Каталог моделей и данных Ollama
             tr_TR: Ollama Modeller ve Veri Dizini
 x-casaos:
-  id: org.icewhale.ollama
   architectures:
     - amd64
     - arm64
@@ -677,7 +676,6 @@ x-casaos:
   index: /
   title:
     en_US: Ollama
-  version: "0.24.0"
   update_at: "2026-05-14"
   release_notes:
     en_US: |-

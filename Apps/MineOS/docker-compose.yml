@@ -137,7 +137,6 @@ services:
           description:
             en_US: MineOS directory.
 x-casaos:
-  id: org.icewhale.mineosnode
   architectures:
     - amd64
   main: mineos
@@ -259,7 +258,6 @@ x-casaos:
   scheme: https
   port_map: "8444"
 
-  version: "1.2.2"
   update_at: "2022-04-25"
   release_notes: ""
   website: "https://www.mineos.net/"

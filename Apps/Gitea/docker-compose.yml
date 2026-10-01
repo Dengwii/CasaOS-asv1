@@ -50,7 +50,6 @@ services:
             zh_CN: Gitea 数据目录。
     container_name: gitea
 x-casaos:
-  id: org.icewhale.gitea
   architectures:
     - amd64
     - arm64
@@ -164,7 +163,6 @@ x-casaos:
     en_US: Gitea
   index: /
   port_map: "3002"
-  version: "1.26.2"
   update_at: "2026-05-20"
   release_notes:
     en_US: |-

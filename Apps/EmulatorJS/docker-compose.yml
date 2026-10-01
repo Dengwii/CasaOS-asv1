@@ -42,7 +42,6 @@ services:
             zh_CN: ROM 管理
     container_name: emulatorjs
 x-casaos:
-  id: org.icewhale.emulatorjs
   architectures:
     - amd64
     - arm64
@@ -86,7 +85,6 @@ x-casaos:
   store_app_id: emulatorjs
   title:
     en_US: emulatorjs
-  version: "1.9.2"
   update_at: "2025-06-09"
   release_notes:
     en_US: |-

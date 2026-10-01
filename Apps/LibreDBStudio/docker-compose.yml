@@ -73,7 +73,6 @@ services:
             en_US: LibreDB Studio data directory (SQLite database).
             zh_CN: LibreDB Studio 数据目录（SQLite 数据库）。
 x-casaos:
-  id: org.icewhale.libredbstudio
   architectures:
     - amd64
     - arm64
@@ -99,7 +98,6 @@ x-casaos:
   index: /
   scheme: http
   port_map: "3016"
-  version: "0.15.0"
   update_at: "2026-09-09"
   release_notes:
     en_US: |-

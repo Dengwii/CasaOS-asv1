@@ -54,7 +54,6 @@ services:
             zh_CN: Plex媒体目录
     container_name: plex
 x-casaos:
-  id: org.icewhale.plexnvidia
   architectures:
     - amd64
     - arm64
@@ -115,7 +114,6 @@ x-casaos:
     en_US: Plex(Nvidia GPU)
   index: /web/index.html
   port_map: "32400"
-  version: "1.43.3"
   update_at: "2026-09-07"
   release_notes:
     en_US: |-

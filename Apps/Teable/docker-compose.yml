@@ -354,7 +354,6 @@ networks:
     name: teable-network
     driver: bridge
 x-casaos:
-  id: org.icewhale.teable
   title:
     de_DE: Teable
     el_GR: Teable
@@ -615,7 +614,6 @@ x-casaos:
     - arm64
   index: /
   scheme: http
-  version: "0.0.1"
   update_at: "2026-05-13"
   release_notes:
     en_US: |-

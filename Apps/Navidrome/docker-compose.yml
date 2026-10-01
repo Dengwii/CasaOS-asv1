@@ -67,7 +67,6 @@ services:
             zh_CN: Navidrome的WebUI端口
 
 x-casaos:
-  id: org.icewhale.navidrome
   architectures:
     - amd64
     - arm64
@@ -91,7 +90,6 @@ x-casaos:
   store_app_id: navidrome
   title:
     en_US: Navidrome
-  version: "0.61.2"
   update_at: "2026-04-12"
   release_notes:
     en_US: |-

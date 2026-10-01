@@ -70,7 +70,6 @@ services:
             zh_CN: 用于日志，缓存，持久性数据库等的位置。
     container_name: openhab
 x-casaos:
-  id: org.icewhale.openhab
   architectures:
     - amd64
     - arm64
@@ -118,7 +117,6 @@ x-casaos:
     en_US: OpenHAB
   index: /
   port_map: "8080"
-  version: "5.1.4"
   update_at: "2026-04-14"
   release_notes:
     en_US: |-

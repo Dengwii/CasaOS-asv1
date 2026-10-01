@@ -59,7 +59,6 @@ services:
             pt_BR: Diretório de configurações do Stremio
 
 x-casaos:
-  id: org.icewhale.stremio
   architectures:
     - amd64
     - arm64
@@ -86,7 +85,6 @@ x-casaos:
     zh_CN: Stremio
   index: /
   port_map: "8100"
-  version: "1.3.4"
   update_at: "2026-05-29"
   release_notes:
     en_US: |-

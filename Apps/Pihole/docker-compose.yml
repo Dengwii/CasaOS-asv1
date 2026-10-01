@@ -179,7 +179,6 @@ services:
             tr_TR: Pi-hole /etc/pihole dizini
     container_name: pihole
 x-casaos:
-  id: org.icewhale.pihole
   architectures:
     - amd64
     - arm64
@@ -533,7 +532,6 @@ x-casaos:
     en_US: Pi-hole
   index: /admin
   port_map: "8800"
-  version: "2026.5.0"
   update_at: "2026-05-11"
   release_notes:
     en_US: |-

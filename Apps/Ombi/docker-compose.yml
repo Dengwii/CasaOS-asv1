@@ -46,7 +46,6 @@ services:
             en_US: ""
     container_name: ombi
 x-casaos:
-  id: org.icewhale.ombi
   architectures:
     - amd64
     - arm64
@@ -92,7 +91,6 @@ x-casaos:
   title:
     en_US: Ombi
   port_map: "3579"
-  version: "4.53.5"
   update_at: "2026-04-20"
   release_notes:
     en_US: |-

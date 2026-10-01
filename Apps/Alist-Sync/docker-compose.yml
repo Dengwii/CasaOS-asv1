@@ -13,7 +13,6 @@ services:
     environment:
       - TZ=Asia/Shanghai
 x-casaos:
-  id: org.icewhale.alistsync
   envs:
     - container: TZ
       description:
@@ -59,7 +58,6 @@ x-casaos:
       en_US: The default login password is admin/admin.
       zh_CN: 默认登录密码 admin/admin。
   port_map: "52441"
-  version: "1.1.5"
   update_at: "2025-03-15"
   release_notes:
     en_US: |-

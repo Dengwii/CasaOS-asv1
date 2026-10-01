@@ -115,7 +115,6 @@ services:
             ru_RU: Разрешает доступ к панели управления с хостов, отличных от loopback
             tr_TR: Panel erisimine loopback disi ana makinelerden izin verir
 x-casaos:
-  id: org.icewhale.hermes
   architectures:
     - amd64
     - arm64
@@ -423,7 +422,6 @@ x-casaos:
   index: /
   title:
     en_US: Hermes
-  version: "0.16.0"
   update_at: "2026-06-05"
   release_notes:
     en_US: |-

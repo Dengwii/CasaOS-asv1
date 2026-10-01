@@ -28,7 +28,6 @@ services:
     privileged: false
     container_name: resilio-sync
 x-casaos:
-  id: org.icewhale.resiliosync
   architectures:
     - amd64
     - arm64
@@ -72,7 +71,6 @@ x-casaos:
   store_app_id: resilio-sync
   title:
     en_US: resilio-sync
-  version: "3.1.2"
   update_at: "2026-05-19"
   release_notes: "Docker image 3.1.2 updates the LinuxServer Resilio Sync image to Resilio Sync 3.1.2.1076-1."
   website: "https://www.resilio.com/sync/"

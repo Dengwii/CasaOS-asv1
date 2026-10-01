@@ -218,7 +218,6 @@ services:
             ru_RU: HTTP порт для веб-интерфейса
             tr_TR: Web arayüzü için HTTP portu
 x-casaos:
-  id: org.icewhale.lyrionmusicserver
   architectures:
     - amd64
     - arm
@@ -506,7 +505,6 @@ x-casaos:
   index: /
   title:
     en_US: LyrionMusicServer
-  version: "9.1.1"
   update_at: "2026-05-24"
   release_notes:
     en_US: |-

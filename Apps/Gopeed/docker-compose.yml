@@ -80,7 +80,6 @@ services:
             tr_TR: Gopeed indirme klasörü
 
 x-casaos:
-  id: org.icewhale.gopeed
   architectures:
     - amd64
     - arm64
@@ -371,7 +370,6 @@ x-casaos:
     pt_BR: Gopeed
   index: /
   port_map: "9999"
-  version: "1.9.3"
   update_at: "2026-03-18"
   release_notes:
     en_US: |-

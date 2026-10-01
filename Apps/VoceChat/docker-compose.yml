@@ -36,7 +36,6 @@ services:
             zh_CN: VoceChat 数据
     container_name: vocechat
 x-casaos:
-  id: org.icewhale.vocechat
   architectures:
     - amd64
   main: vocechat
@@ -162,7 +161,6 @@ x-casaos:
     en_US: VoceChat
   index: /
   port_map: "3009"
-  version: "0.5.17"
   update_at: "2026-05-17"
   release_notes:
     en_US: |-
