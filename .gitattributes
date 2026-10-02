@@ -1,0 +1,8 @@
+*.gif export-ignore
+*.ico export-ignore
+*.jpeg export-ignore
+*.jpg export-ignore
+*.png export-ignore
+*.psd export-ignore
+*.webp export-ignore
+psd-source export-ignore
