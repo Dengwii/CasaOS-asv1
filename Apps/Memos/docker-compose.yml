@@ -5,7 +5,8 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
-    image: neosmemo/memos:0.28.0
+      V1_UPGRADE_TARGET: config-only-no-version
+    image: neosmemo/memos:0.31.0
     deploy:
       resources:
         reservations:
