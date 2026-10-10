@@ -5,6 +5,7 @@ services:
       PGID: $PGID
       PUID: $PUID
       TZ: $TZ
+      V1_UPGRADE_TARGET: must-not-enter-installed-compose
     image: neosmemo/memos:0.28.0
     deploy:
       resources:
